@@ -14,4 +14,6 @@ Here is how to config STM32F767ZI to create PWM signal </br>
     - We divide with _<b>"Prescale"</b>_ (108) >> 108x10^7 / 108 = 10^7  
     - We divide it  again with _<b>"Count period"</b>_ (2000) >> 10^7 / 2000 = 500 Hz
     - We need to minus 1 >> 108-1 and 2000-1 somehow (T^T)
- - PE9 Button is going to be green , click save and go to main.c
+ - PE9 Button is going to be green ,all pins are gonna be like this </br>
+![image](https://github.com/user-attachments/assets/a5f4b309-500f-49a7-8044-2ba7638ce652)
+ - Click save to generate code and go to main.c
