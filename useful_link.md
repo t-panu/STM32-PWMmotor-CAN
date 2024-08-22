@@ -3,3 +3,4 @@
 - https://www.micropeta.com/video116
 # CAN-bus via STM32
 - https://hsdev.co.jp/stm32-can/#index_id0
+- https://www.youtube.com/watch?v=sd6FKkfzU2I
