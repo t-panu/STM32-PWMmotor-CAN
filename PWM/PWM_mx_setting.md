@@ -17,3 +17,5 @@ Here is how to config STM32F767ZI to create PWM signal </br>
  - PE9 Button is going to be green ,all pins are gonna be like this </br>
 ![image](https://github.com/user-attachments/assets/a5f4b309-500f-49a7-8044-2ba7638ce652)
  - Click save to generate code and go to main.c
+ - For more calculation details , please open STM32_calculations.xlsx </br>
+ - ![image](https://github.com/user-attachments/assets/0e318871-d5b6-4723-bf77-e013d72f5755)
