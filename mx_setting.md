@@ -11,6 +11,6 @@ Here is how to config STM32F767ZI to create PWM signal </br>
 ![image](https://github.com/user-attachments/assets/5df216ae-36b9-4d79-ace5-8a84a955bf9a)
     - We're gonna use 500Hz of PWM for L298N motor driver
     - TIMER1 is connected to APB2 (according to 20th page of [datasheet](https://www.st.com/resource/en/datasheet/stm32f765bi.pdf) which is 108MHz
-    - We divide with _<b><span style="color: green">prescale</span></b>_ (108) >> 108x10^7 / 108 = 10^7  
-    - Wedicide again with _<b><span style="color: green">count period</span></b>_ (2000) >> 10^7 / 2000 = 500 Hz
+    - We divide with _<span style="color: green">prescale</span>_ (108) >> 108x10^7 / 108 = 10^7  
+    - Wedicide again with _<span style="color: green">count period</span>_ (2000) >> 10^7 / 2000 = 500 Hz
     - We need to minus 1 tobe 108-1 and 2000-1 somehow (T^T)
